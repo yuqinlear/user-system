@@ -1,0 +1,48 @@
+{
+  "name": "UserSystem",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a sample user system",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-angular-templates": "^1.0.3",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-jscs": "^2.7.0",
+    "grunt-wiredep": "^2.0.0",
+    "http-server": "^0.6.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "~0.12",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.3.5"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install && grunt",
+    "start": "node ./src/server/server.js"
+  },
+  "dependencies": {
+    "angular-block-ui": "^0.2.0",
+    "body-parser": "^1.15.0",
+    "connect-mongo": "^1.1.0",
+    "connect-timeout": "^1.7.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "lodash": "^4.3.0",
+    "mongoose": "^4.4.6",
+    "mongoose-findorcreate": "^0.1.2",
+    "mysql": "^2.10.2",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "q": "^1.4.1",
+    "winston": "^2.1.1"
+  },
+  "engines": {
+    "node": "4.2.1"
+  }
+}

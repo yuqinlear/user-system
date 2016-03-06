@@ -1,0 +1,26 @@
+{
+  "name": "user system",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.4.0",
+    "angular-animate": "~1.5.1",
+    "bootstrap": "~3.3.6",
+    "angular-bootstrap": "~1.1.2",
+    "angular-cookies": "~1.5.0",
+    "lodash": "~4.3.0",
+    "angular-block-ui": "~0.2.2"
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  },
+  "storage": {
+    "packages": ".bower-cache",
+    "registry": ".bower-registry"
+  },
+  "tmp": ".bower-tmp"
+}
